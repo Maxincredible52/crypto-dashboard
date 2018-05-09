@@ -12,3 +12,7 @@ providing a conversion to other currencies.
 We do not want to push ourselves into a certain direction with this project, as we want to experiment with
 Vue so some features might be added in the future that were not defined in this README. This will be 
 documented in the future though.
+
+### Contributors
+
+Maximilian [Lucas Manfred] Mayr|Zauner
