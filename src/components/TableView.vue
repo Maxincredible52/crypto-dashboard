@@ -8,24 +8,29 @@
                 :default-sort="[sortField, sortOrder]">
 
             <template slot-scope="props">
-                <b-table-column field="symbol" label="Symbol" sortable>
-                    {{ props.row.symbol }}
+                <b-table-column field="rank" label="#" sortable>
+                    {{ props.row.rank }}
                 </b-table-column>
 
                 <b-table-column field="name" label="Name" sortable>
-                    {{ props.row.name }}
+                    <div class="has-text-weight-semibold">
+                        {{ props.row.name }}
+                    </div>
+                    <div>
+                        <small class="has-text-grey is-size-7">{{ props.row.symbol }}</small>
+                    </div>
                 </b-table-column>
 
-                <b-table-column field="priceUSD" label="priceUSD" numeric sortable>
-                    {{ props.row.priceUSD }}
+                <b-table-column field="priceUSD" label="Preis [$]" numeric sortable>
+                    $ {{ formatCurrency(props.row.priceUSD) }}
                 </b-table-column>
 
-                <b-table-column field="priceBTC" label="priceBTC" numeric sortable>
-                    {{ props.row.priceBTC }}
+                <b-table-column field="priceBTC" label="Preis [BTC]" numeric sortable>
+                    {{ formatCurrency(props.row.priceBTC) }}
                 </b-table-column>
 
-                <b-table-column field="marketCapUSD" label="marketCapUSD" numeric sortable>
-                    {{ props.row.marketCapUSD }}
+                <b-table-column field="marketCapUSD" label="Marketcap [$]" numeric sortable>
+                    $ {{ formatCurrency(props.row.marketCapUSD) }}
                 </b-table-column>
             </template>
         </b-table>
@@ -34,6 +39,8 @@
 
 <script>
     import gql from 'graphql-tag';
+
+    var f = require('d3-format');
 
     export default {
         name: 'TableView',
@@ -89,6 +96,9 @@
             }
         },
         methods: {
+            formatCurrency(value) {
+                return f.format(".2s")(value);
+            }
             /*
              * Handle page-change event
              */
@@ -120,3 +130,8 @@
         }
     }
 </script>
+<style>
+    .table td {
+        vertical-align: inherit;
+    }
+</style>
