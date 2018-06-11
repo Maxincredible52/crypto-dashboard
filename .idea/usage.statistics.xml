@@ -26,7 +26,8 @@
         <counts>
           <entry key="gitignore" value="9" />
           <entry key="js" value="477" />
-          <entry key="vue" value="726" />
+          <entry key="txt" value="52" />
+          <entry key="vue" value="740" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -34,7 +35,8 @@
           <entry key="Git file" value="9" />
           <entry key="GraphQL" value="25" />
           <entry key="JavaScript" value="477" />
-          <entry key="Vue.js" value="701" />
+          <entry key="PLAIN_TEXT" value="52" />
+          <entry key="Vue.js" value="715" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.rename.constructor" />

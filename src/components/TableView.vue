@@ -50,7 +50,9 @@
   var f = require('d3-format')
 
   export default {
+
     name: 'TableView',
+
     apollo: {
       $loadingKey: 'loading',
       tickers() {
@@ -99,6 +101,7 @@
         }
       },
     },
+
     data() {
       return {
         data: [],
@@ -111,13 +114,17 @@
         perPage: 10,
       }
     },
+
     methods: {
+
       formatCurrency(value) {
         return f.format('.2s')(value)
       },
+
       onPageChange(page) {
         this.page = page - 1
       },
+
       testMethod(data) {
         console.log('test', data)
         this.$router.push(`${data.symbol}`)
