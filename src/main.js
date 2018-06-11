@@ -2,36 +2,45 @@ import Vue from 'vue'
 import App from './App.vue'
 import Buefy from 'buefy'
 import 'buefy/lib/buefy.css'
-import VueResource from 'vue-resource';
-import {ApolloClient} from 'apollo-client'
-import {HttpLink} from 'apollo-link-http'
-import {InMemoryCache} from 'apollo-cache-inmemory'
+import VueResource from 'vue-resource'
+import { ApolloClient } from 'apollo-client'
+import { HttpLink } from 'apollo-link-http'
+import { InMemoryCache } from 'apollo-cache-inmemory'
 import VueApollo from 'vue-apollo'
+import VueRouter from 'vue-router'
+import CoinDetails from './components/CoinDetails.vue'
+import TableView from './components/TableView.vue'
 
 const httpLink = new HttpLink({
-    // You should use an absolute URL here
-    uri: 'http://localhost:3000/graphql',
-});
+  uri: 'http://localhost:3000/graphql',
+})
 
-// Create the apollo client
 const apolloClient = new ApolloClient({
-    link: httpLink,
-    cache: new InMemoryCache(),
-    connectToDevTools: true,
-});
+  link: httpLink,
+  cache: new InMemoryCache(),
+  connectToDevTools: true,
+})
 
 const apolloProvider = new VueApollo({
-    defaultClient: apolloClient,
-});
+  defaultClient: apolloClient,
+})
 
-// Install the vue plugin
-Vue.use(VueApollo);
-Vue.use(VueResource);
-Vue.use(Buefy);
+Vue.use(VueApollo)
+Vue.use(VueResource)
+Vue.use(Buefy)
+Vue.use(VueRouter)
 
-Vue.config.productionTip = false;
+const router = new VueRouter({
+  mode: 'history',
+  routes: [
+    { path: '/', component: TableView },
+    { path: '/:symbol', component: CoinDetails, props: true }
+  ]
+})
 
 new Vue({
-    provide: apolloProvider.provide(),
-    render: h => h(App)
-}).$mount('#app');
+  router,
+  provide: apolloProvider.provide(),
+  render: (h) => h(App)
+  ,
+}).$mount('#app')
