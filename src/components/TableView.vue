@@ -5,7 +5,13 @@
                 :loading="loading"
 
                 :default-sort-direction="defaultSortOrder"
-                :default-sort="[sortField, sortOrder]">
+                :default-sort="[sortField, sortOrder]"
+
+                paginated
+                backend-pagination
+                :total="total"
+                :per-page="perPage"
+                @page-change="onPageChange">
 
             <template slot-scope="props">
                 <b-table-column field="rank" label="#" sortable>
@@ -48,8 +54,8 @@
             $loadingKey: 'loading',
             tickers() {
                 return {
-                    query: gql`query {
-                         tickers {
+                    query: gql`query ($limit: Int!, $start: Int!) {
+                         tickers(limit: $limit, start: $start) {
                              name
                              symbol
                              rank
@@ -63,21 +69,30 @@
                              percentChange24h
                              percentChange7d
                              lastUpdated
+                         },
+                         global {
+                             activeCurrencies
+                             activeAssets
                          }
                     }`,
+                    variables() {
+                        return {
+                            limit: this.perPage,
+                            start: this.page * this.perPage
+                        };
+                    },
                     fetchPolicy: 'cache-and-network',
                     result(result) {
                         console.log(result);
-                        this.data = []
-                        if (result.data) {
-                            let currentTotal = result.data.tickers.length
-                            if (currentTotal / this.perPage > 100) {
-                                currentTotal = this.perPage * 100
-                            }
-                            this.total = currentTotal;
+                        this.data = [];
+                        if (result.data && result.data.tickers) {
                             result.data.tickers.forEach((item) => {
                                 this.data.push(item)
                             })
+                        }
+                        if (result.data && result.data.global) {
+                            this.total = result.data.global.activeCurrencies + result.data.global.activeAssets;
+                            console.log(this.total)
                         }
                     },
                 }
@@ -91,42 +106,17 @@
                 sortField: 'marketCapUSD',
                 sortOrder: 'desc',
                 defaultSortOrder: 'desc',
-                page: 1,
-                perPage: 20
+                page: 0,
+                perPage: 10
             }
         },
         methods: {
             formatCurrency(value) {
                 return f.format(".2s")(value);
+            },
+            onPageChange(page) {
+                this.page = page;
             }
-            /*
-             * Handle page-change event
-             */
-            // onPageChange(page) {
-            //     this.page = page
-            //     this.loadAsyncData()
-            // },
-            // /*
-            //  * Handle sort event
-            //  */
-            // onSort(field, order) {
-            //     this.sortField = field;
-            //     this.sortOrder = order;
-            //     this.loadAsyncData()
-            // },
-            // /*
-            //  * Type style in relation to the value
-            //  */
-            // type(value) {
-            //     const number = parseFloat(value)
-            //     if (number < 6) {
-            //         return 'is-danger'
-            //     } else if (number >= 6 && number < 8) {
-            //         return 'is-warning'
-            //     } else if (number >= 8) {
-            //         return 'is-success'
-            //     }
-            // }
         }
     }
 </script>
