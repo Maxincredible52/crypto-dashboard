@@ -115,7 +115,7 @@
                 return f.format(".2s")(value);
             },
             onPageChange(page) {
-                this.page = page;
+                this.page = page - 1;
             }
         }
     }
