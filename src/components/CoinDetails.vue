@@ -2,7 +2,7 @@
   <div>
     <section class="hero is-primary is-bold">
       <div class="hero-body">
-        <div class="container">
+        <div class="container has-text-centered">
           <h1 v-if="$apolloData.loading" class="title">Loading...</h1>
           <h1 v-else class="title">
             <img class="currency-symbol" v-if="coinData.id" v-bind:src="imgUrl">
@@ -28,13 +28,13 @@
         <div class="level-item has-text-centered">
           <div>
             <p class="heading">Price BTC</p>
-            <p class="title">{{coinData.priceBTC}} BTC</p>
+            <p class="title">{{priceBTC}}</p>
           </div>
         </div>
         <div class="level-item has-text-centered">
           <div>
             <p class="heading">Price USD</p>
-            <p class="title">{{coinData.priceUSD}} USD</p>
+            <p class="title">{{priceUSD}}</p>
           </div>
         </div>
       </nav>
@@ -86,10 +86,16 @@
         return `https://s2.coinmarketcap.com/static/img/coins/32x32/${this.coinData.id}.png`
       },
       circulatingSupply: function() {
-        return `${Format.kFormater(this.coinData.circulatingSupply)} ${this.coinData.symbol}`
+        return `${Format.currencyFormat(this.coinData.circulatingSupply)} ${this.coinData.symbol}`
       },
       totalSupply: function() {
-        return `${Format.kFormater(this.coinData.totalSupply)} ${this.coinData.symbol}`
+        return `${Format.currencyFormat(this.coinData.totalSupply)} ${this.coinData.symbol}`
+      },
+      priceBTC: function() {
+        return `${Format.currencyFormat(this.coinData.priceBTC)} BTC`
+      },
+      priceUSD: function() {
+        return `${Format.currencyFormat(this.coinData.priceUSD)} USD`
       }
     },
 

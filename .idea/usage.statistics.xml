@@ -6,7 +6,7 @@
         <counts>
           <entry key="gitignore" value="1" />
           <entry key="graphqls" value="2" />
-          <entry key="js" value="5" />
+          <entry key="js" value="6" />
           <entry key="json" value="3" />
           <entry key="vue" value="6" />
           <entry key="xml" value="1" />
@@ -17,7 +17,7 @@
           <entry key="Git file" value="1" />
           <entry key="GraphQL Schema" value="2" />
           <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="5" />
+          <entry key="JavaScript" value="6" />
           <entry key="Vue.js" value="6" />
           <entry key="XML" value="1" />
         </counts>
@@ -25,18 +25,18 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="9" />
-          <entry key="js" value="735" />
-          <entry key="txt" value="83" />
-          <entry key="vue" value="2608" />
+          <entry key="js" value="835" />
+          <entry key="txt" value="128" />
+          <entry key="vue" value="2851" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Git file" value="9" />
           <entry key="GraphQL" value="75" />
-          <entry key="JavaScript" value="735" />
-          <entry key="PLAIN_TEXT" value="83" />
-          <entry key="Vue.js" value="2533" />
+          <entry key="JavaScript" value="835" />
+          <entry key="PLAIN_TEXT" value="128" />
+          <entry key="Vue.js" value="2776" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.rename.constructor" />
