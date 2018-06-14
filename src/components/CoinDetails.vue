@@ -67,11 +67,9 @@
           }
         `,
         variables() {
-          console.log('coinid', this.$attrs.coinId)
           return { id: this.$attrs.coinId }
         },
         result(res) {
-          console.log('res', res)
           this.updateCoinData(res.data.ticker)
         },
       },

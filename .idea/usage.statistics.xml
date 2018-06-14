@@ -46,5 +46,46 @@
       <usages-collector id="statistics.php.composer.command.options" />
       <usages-collector id="statistics.php.composer.actions" />
     </session>
+    <session id="1281685071">
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="1" />
+          <entry key="js" value="251" />
+          <entry key="json" value="9" />
+          <entry key="txt" value="26" />
+          <entry key="vue" value="175" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="1" />
+          <entry key="JSON" value="9" />
+          <entry key="JavaScript" value="251" />
+          <entry key="PLAIN_TEXT" value="26" />
+          <entry key="Vue.js" value="175" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="gitignore" value="1" />
+          <entry key="html" value="2" />
+          <entry key="js" value="12" />
+          <entry key="json" value="1" />
+          <entry key="log" value="1" />
+          <entry key="md" value="1" />
+          <entry key="vue" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="2" />
+          <entry key="JSON" value="1" />
+          <entry key="JavaScript" value="12" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Vue.js" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
 </project>
