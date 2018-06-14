@@ -68,14 +68,10 @@
               percentChange7d
               lastUpdated
             }
-#            global {
-#              totalMarketCapUSD
-#              activeCryptocurrencies
-#              activeMarkets
-#              total24hVolumeUSD
-#              bitcoinPercentageOfMarketCap
-#              lastUpdated
-#            }
+            global {
+              activeCryptocurrencies
+              activeMarkets
+            }
           }
         `,
         variables() {
@@ -94,7 +90,7 @@
             })
           }
           if (result.data && result.data.global) {
-            this.total = result.data.global.activeCurrencies + result.data.global.activeAssets
+            this.total = result.data.global.activeCryptocurrencies + result.data.global.activeMarkets
             console.log(this.total)
           }
         },
