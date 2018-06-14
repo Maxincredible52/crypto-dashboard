@@ -34,7 +34,7 @@ const router = new VueRouter({
   mode: 'history',
   routes: [
     { path: '/', component: TableView },
-    { path: '/:symbol', component: CoinDetails, props: true }
+    { path: '/:coinId', component: CoinDetails, props: true }
   ]
 })
 
