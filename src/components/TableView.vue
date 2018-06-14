@@ -34,6 +34,9 @@
         <b-table-column field="marketCapUSD" label="Marketcap [$]" numeric sortable>
           $ {{ formatCurrency(props.row.marketCapUSD) }}
         </b-table-column>
+        <b-table-column field="percentChange24h" label="Change [24h]" numeric sortable>
+          <span :class="getClass(props.row.percentChange24h)">% {{ props.row.percentChange24h }}</span>
+        </b-table-column>
       </template>
     </b-table>
   </div>
@@ -59,18 +62,11 @@
               rank
               priceUSD
               priceBTC
-              dailyVolumeUSD
               marketCapUSD
-              circulatingSupply
-              totalSupply
-              percentChange1h
               percentChange24h
-              percentChange7d
-              lastUpdated
             }
             global {
               activeCryptocurrencies
-              activeMarkets
             }
           }
         `,
@@ -82,7 +78,6 @@
         },
         fetchPolicy: 'cache-and-network',
         result(result) {
-          console.log(result)
           this.data = []
           if (result.data && result.data.tickers) {
             result.data.tickers.forEach((item) => {
@@ -90,8 +85,7 @@
             })
           }
           if (result.data && result.data.global) {
-            this.total = result.data.global.activeCryptocurrencies + result.data.global.activeMarkets
-            console.log(this.total)
+            this.total = result.data.global.activeCryptocurrencies
           }
         },
       },
@@ -111,17 +105,17 @@
     },
 
     methods: {
-
       formatCurrency(value) {
         return format('.2s')(value)
       },
-
+      getClass(value) {
+        return value >= 0 ? 'positive-change' : 'negative-change'
+      },
       onPageChange(page) {
         this.page = page - 1
       },
 
       routeToSymbol(data) {
-        console.log('test', data)
         this.$router.push(`${data.id}`)
       },
     },
@@ -136,5 +130,13 @@
   .container {
     padding-top: 20px;
     padding-bottom: 20px;
+  }
+
+  .positive-change {
+    color: green;
+  }
+
+  .negative-change {
+    color: red;
   }
 </style>

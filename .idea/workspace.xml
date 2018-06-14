@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd2fbe36-1499-4516-85a9-ad3f299dff02" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/CoinDetails.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/TableView.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/usage.statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/usage.statistics.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CoinDetails.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CoinDetails.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TableView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TableView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/format.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/format.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/CoinDetails.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/CoinDetails.spec.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,88 +22,105 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="464">
-                  <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/App.vue">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="176">
-                  <caret line="11" selection-start-line="11" selection-end-line="11" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/CoinDetails.vue">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="752">
-                  <caret line="47" selection-start-line="47" selection-end-line="47" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/tests/CoinDetails.spec.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="128">
-                  <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/TableView.vue">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="260">
-                  <caret line="63" column="31" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/lib/format.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="128">
-                  <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/.babelrc">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="176">
-                  <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/package.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="674">
-                  <caret line="68" column="54" selection-start-line="68" selection-start-column="54" selection-end-line="68" selection-end-column="54" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1185">
+              <caret line="103" column="3" selection-start-line="103" selection-start-column="3" selection-end-line="103" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/CoinDetails.spec.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <element signature="e#0#46#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/TableView.spec.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="21" selection-start-line="1" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="29" column="12" lean-forward="true" selection-start-line="29" selection-end-line="30" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/TableView.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="61" column="18" lean-forward="true" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
+              <folding>
+                <element signature="e#1367#1396#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-135" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/service-worker-dev.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/service-worker-prod.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-302" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/CoinDetails.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="58">
+              <caret line="7" column="14" selection-start-line="7" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -135,12 +157,14 @@
         <option value="$PROJECT_DIR$/vue.config.js" />
         <option value="$PROJECT_DIR$/src/main.js" />
         <option value="$PROJECT_DIR$/src/App.vue" />
-        <option value="$PROJECT_DIR$/src/components/CoinDetails.vue" />
-        <option value="$PROJECT_DIR$/src/lib/format.js" />
-        <option value="$PROJECT_DIR$/src/components/TableView.vue" />
         <option value="$PROJECT_DIR$/tests/components/CoinDetails.spec.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.babelrc" />
+        <option value="$PROJECT_DIR$/src/components/CoinDetails.vue" />
+        <option value="$PROJECT_DIR$/src/lib/format.js" />
+        <option value="$PROJECT_DIR$/.eslintrc.js" />
+        <option value="$PROJECT_DIR$/tests/TableView.spec.js" />
+        <option value="$PROJECT_DIR$/src/components/TableView.vue" />
         <option value="$PROJECT_DIR$/tests/CoinDetails.spec.js" />
       </list>
     </option>
@@ -291,122 +315,113 @@
   <component name="ProjectUserFactors">
     <factor id="binaryFeature:liftShorter">
       <dailyData date="14-6-2018">
-        <observation name="UNDEFINED" value="110,0" />
-        <observation name="false" value="37,0" />
+        <observation name="UNDEFINED" value="11,0" />
+        <observation name="false" value="7,0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:liftShorterClasses">
       <dailyData date="14-6-2018">
-        <observation name="UNDEFINED" value="147,0" />
+        <observation name="UNDEFINED" value="18,0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:middleMatching">
       <dailyData date="14-6-2018">
-        <observation name="false" value="147,0" />
+        <observation name="false" value="18,0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:nonGeneric">
       <dailyData date="14-6-2018">
-        <observation name="UNDEFINED" value="147,0" />
+        <observation name="UNDEFINED" value="18,0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_inResolveScope">
       <dailyData date="14-6-2018">
-        <observation name="UNDEFINED" value="137,0" />
-        <observation name="false" value="5,0" />
-        <observation name="true" value="5,0" />
+        <observation name="UNDEFINED" value="18,0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_openedInEditor">
       <dailyData date="14-6-2018">
-        <observation name="UNDEFINED" value="137,0" />
-        <observation name="false" value="10,0" />
+        <observation name="UNDEFINED" value="18,0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sameDirectory">
       <dailyData date="14-6-2018">
-        <observation name="UNDEFINED" value="137,0" />
-        <observation name="false" value="10,0" />
+        <observation name="UNDEFINED" value="18,0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sameLogicalRoot">
       <dailyData date="14-6-2018">
-        <observation name="UNDEFINED" value="137,0" />
-        <observation name="false" value="10,0" />
+        <observation name="UNDEFINED" value="18,0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sdkOrLibrary">
       <dailyData date="14-6-2018">
-        <observation name="UNDEFINED" value="137,0" />
-        <observation name="false" value="10,0" />
+        <observation name="UNDEFINED" value="18,0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:templates">
       <dailyData date="14-6-2018">
-        <observation name="false" value="143,0" />
-        <observation name="true" value="4,0" />
+        <observation name="false" value="16,0" />
+        <observation name="true" value="2,0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:accessible">
       <dailyData date="14-6-2018">
-        <observation name="UNDEFINED" value="147,0" />
+        <observation name="UNDEFINED" value="18,0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:expectedType">
       <dailyData date="14-6-2018">
-        <observation name="UNDEFINED" value="147,0" />
+        <observation name="UNDEFINED" value="18,0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:kind">
       <dailyData date="14-6-2018">
-        <observation name="UNDEFINED" value="147,0" />
+        <observation name="UNDEFINED" value="18,0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_groovyReferenceListWeigher">
       <dailyData date="14-6-2018">
-        <observation name="UNDEFINED" value="137,0" />
-        <observation name="unknown" value="10,0" />
+        <observation name="UNDEFINED" value="18,0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_javaInheritance">
       <dailyData date="14-6-2018">
-        <observation name="UNDEFINED" value="137,0" />
-        <observation name="null" value="10,0" />
+        <observation name="UNDEFINED" value="18,0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_referenceList">
       <dailyData date="14-6-2018">
-        <observation name="UNDEFINED" value="137,0" />
-        <observation name="unknown" value="10,0" />
+        <observation name="UNDEFINED" value="18,0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:recursion">
       <dailyData date="14-6-2018">
-        <observation name="UNDEFINED" value="147,0" />
+        <observation name="UNDEFINED" value="18,0" />
       </dailyData>
     </factor>
     <factor id="completionFinishedType">
       <dailyData date="14-6-2018">
-        <observation name="cancelled" value="732,0" />
-        <observation name="explicitSelect" value="53,0" />
-        <observation name="typedSelect" value="94,0" />
+        <observation name="cancelled" value="173,0" />
+        <observation name="explicitSelect" value="14,0" />
+        <observation name="typedSelect" value="4,0" />
       </dailyData>
     </factor>
     <factor id="completionType">
       <dailyData date="14-6-2018">
-        <observation name="BASIC" value="236,0" />
+        <observation name="BASIC" value="32,0" />
       </dailyData>
     </factor>
     <factor id="completionUsage">
       <dailyData date="14-6-2018">
-        <observation name="count" value="879,0" />
+        <observation name="count" value="191,0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:explicitProximity">
       <dailyData date="14-6-2018">
-        <observation name="UNDEFINED" value="110,0" />
+        <observation name="UNDEFINED" value="11,0" />
         <observation name="average" value="0,0" />
-        <observation name="count" value="73,0" />
+        <observation name="count" value="13,0" />
         <observation name="max" value="0,0" />
         <observation name="min" value="0,0" />
         <observation name="variance" value="0,0" />
@@ -414,9 +429,9 @@
     </factor>
     <factor id="doubleFeature:grouping">
       <dailyData date="14-6-2018">
-        <observation name="UNDEFINED" value="110,0" />
+        <observation name="UNDEFINED" value="11,0" />
         <observation name="average" value="0,0" />
-        <observation name="count" value="73,0" />
+        <observation name="count" value="13,0" />
         <observation name="max" value="0,0" />
         <observation name="min" value="0,0" />
         <observation name="variance" value="0,0" />
@@ -424,85 +439,65 @@
     </factor>
     <factor id="doubleFeature:mostUsed">
       <dailyData date="14-6-2018">
-        <observation name="UNDEFINED" value="147,0" />
+        <observation name="UNDEFINED" value="18,0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:nameEnd">
       <dailyData date="14-6-2018">
-        <observation name="UNDEFINED" value="147,0" />
+        <observation name="UNDEFINED" value="18,0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:position">
       <dailyData date="14-6-2018">
-        <observation name="average" value="0,027304" />
-        <observation name="count" value="293,0" />
-        <observation name="max" value="1,0" />
+        <observation name="average" value="0,457143" />
+        <observation name="count" value="35,0" />
+        <observation name="max" value="2,0" />
         <observation name="min" value="0,0" />
-        <observation name="variance" value="0,027808" />
+        <observation name="variance" value="0,228015" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prefix">
       <dailyData date="14-6-2018">
-        <observation name="average" value="-1128,460751" />
-        <observation name="count" value="293,0" />
+        <observation name="average" value="-937,657143" />
+        <observation name="count" value="35,0" />
         <observation name="max" value="0,0" />
-        <observation name="min" value="-1303,0" />
-        <observation name="variance" value="18020,296073" />
+        <observation name="min" value="-1153,0" />
+        <observation name="variance" value="120452,077439" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:priority">
       <dailyData date="14-6-2018">
-        <observation name="average" value="-25,365188" />
-        <observation name="count" value="293,0" />
+        <observation name="average" value="-13,457143" />
+        <observation name="count" value="35,0" />
         <observation name="max" value="81,0" />
-        <observation name="min" value="-103,0" />
-        <observation name="variance" value="1345,871949" />
+        <observation name="min" value="-101,0" />
+        <observation name="variance" value="1738,32169" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prox_explicitlyImported">
       <dailyData date="14-6-2018">
-        <observation name="UNDEFINED" value="137,0" />
-        <observation name="average" value="0,0" />
-        <observation name="count" value="19,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
+        <observation name="UNDEFINED" value="18,0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prox_knownElement">
       <dailyData date="14-6-2018">
-        <observation name="UNDEFINED" value="137,0" />
-        <observation name="average" value="0,0" />
-        <observation name="count" value="19,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
+        <observation name="UNDEFINED" value="18,0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prox_sameModule">
       <dailyData date="14-6-2018">
-        <observation name="UNDEFINED" value="137,0" />
-        <observation name="average" value="0,0" />
-        <observation name="count" value="19,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
+        <observation name="UNDEFINED" value="18,0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prox_samePsiMember">
       <dailyData date="14-6-2018">
-        <observation name="UNDEFINED" value="137,0" />
-        <observation name="average" value="0,0" />
-        <observation name="count" value="19,0" />
-        <observation name="max" value="0,0" />
-        <observation name="min" value="0,0" />
-        <observation name="variance" value="0,0" />
+        <observation name="UNDEFINED" value="18,0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:query_length">
       <dailyData date="14-6-2018">
         <observation name="average" value="0,0" />
-        <observation name="count" value="293,0" />
+        <observation name="count" value="35,0" />
         <observation name="max" value="0,0" />
         <observation name="min" value="0,0" />
         <observation name="variance" value="0,0" />
@@ -510,32 +505,32 @@
     </factor>
     <factor id="doubleFeature:result_length">
       <dailyData date="14-6-2018">
-        <observation name="average" value="6,447099" />
-        <observation name="count" value="293,0" />
-        <observation name="max" value="17,0" />
-        <observation name="min" value="2,0" />
-        <observation name="variance" value="7,196499" />
+        <observation name="average" value="5,628571" />
+        <observation name="count" value="35,0" />
+        <observation name="max" value="9,0" />
+        <observation name="min" value="1,0" />
+        <observation name="variance" value="3,181627" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:sameWords">
       <dailyData date="14-6-2018">
-        <observation name="UNDEFINED" value="147,0" />
+        <observation name="UNDEFINED" value="18,0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:shorter">
       <dailyData date="14-6-2018">
-        <observation name="UNDEFINED" value="147,0" />
+        <observation name="UNDEFINED" value="18,0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:simple">
       <dailyData date="14-6-2018">
-        <observation name="UNDEFINED" value="147,0" />
+        <observation name="UNDEFINED" value="18,0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:sorter">
       <dailyData date="14-6-2018">
         <observation name="average" value="1,0" />
-        <observation name="count" value="293,0" />
+        <observation name="count" value="35,0" />
         <observation name="max" value="1,0" />
         <observation name="min" value="1,0" />
         <observation name="variance" value="0,0" />
@@ -543,49 +538,45 @@
     </factor>
     <factor id="doubleFeature:statics">
       <dailyData date="14-6-2018">
-        <observation name="UNDEFINED" value="147,0" />
+        <observation name="UNDEFINED" value="18,0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:stats">
       <dailyData date="14-6-2018">
-        <observation name="average" value="2388,662116" />
-        <observation name="count" value="293,0" />
+        <observation name="average" value="4284,971429" />
+        <observation name="count" value="35,0" />
         <observation name="max" value="10000,0" />
         <observation name="min" value="0,0" />
-        <observation name="variance" value="17830071,068177" />
+        <observation name="variance" value="16415578,149035" />
       </dailyData>
     </factor>
     <factor id="itemPosition">
       <dailyData date="14-6-2018">
-        <observation name="0" value="51,0" />
-        <observation name="1" value="2,0" />
+        <observation name="0" value="8,0" />
+        <observation name="1" value="5,0" />
+        <observation name="2" value="1,0" />
       </dailyData>
     </factor>
     <factor id="mnemonicsUsage">
       <dailyData date="14-6-2018">
-        <observation name="total" value="45,0" />
-        <observation name="withMnemonics" value="4,0" />
+        <observation name="total" value="10,0" />
+        <observation name="withMnemonics" value="0,0" />
       </dailyData>
     </factor>
     <factor id="prefixLength">
       <dailyData date="14-6-2018">
         <observation name="0" value="3,0" />
-        <observation name="1" value="5,0" />
-        <observation name="12" value="1,0" />
-        <observation name="2" value="6,0" />
-        <observation name="3" value="12,0" />
-        <observation name="4" value="10,0" />
-        <observation name="5" value="6,0" />
-        <observation name="6" value="6,0" />
-        <observation name="7" value="1,0" />
-        <observation name="8" value="2,0" />
-        <observation name="9" value="1,0" />
+        <observation name="1" value="1,0" />
+        <observation name="2" value="2,0" />
+        <observation name="3" value="5,0" />
+        <observation name="4" value="2,0" />
+        <observation name="5" value="1,0" />
       </dailyData>
     </factor>
     <factor id="timeBetweenTyping">
       <dailyData date="14-6-2018">
-        <observation name="average" value="159,873077" />
-        <observation name="count" value="520,0" />
+        <observation name="average" value="279,870968" />
+        <observation name="count" value="31,0" />
       </dailyData>
     </factor>
   </component>
@@ -600,34 +591,6 @@
             <path>
               <item name="crypto-dashboard" type="b2602c69:ProjectViewProjectNode" />
               <item name="crypto-dashboard" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crypto-dashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crypto-dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crypto-dashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crypto-dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crypto-dashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crypto-dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crypto-dashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crypto-dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crypto-dashboard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crypto-dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="crypto-dashboard" type="b2602c69:ProjectViewProjectNode" />
@@ -671,7 +634,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jest.CoinDetails.vue (1)">
+  <component name="RunManager" selected="Jest.CoinDetails.vue.displays">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -690,7 +662,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CoinDetails.vue (1)" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+    <configuration name="CoinDetails.vue" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <working-dir value="$PROJECT_DIR$" />
@@ -702,15 +674,55 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="CoinDetails.vue" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+    <configuration name="CoinDetails.vue.component gets initialized" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
-      <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/tests/components/CoinDetails.spec.js" />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/tests/CoinDetails.spec.js" />
       <test-names>
         <test-name value="CoinDetails.vue" />
+        <test-name value="component gets initialized" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="CoinDetails.vue.displays" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/tests/CoinDetails.spec.js" />
+      <test-names>
+        <test-name value="CoinDetails.vue" />
+        <test-name value="displays" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="TableView.vue.component gets initialized" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/tests/TableView.spec.js" />
+      <test-names>
+        <test-name value="TableView.vue" />
+        <test-name value="component gets initialized" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="TableView.vue.correctly sets the message when created" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/tests/TableView.spec.js" />
+      <test-names>
+        <test-name value="TableView.vue" />
+        <test-name value="correctly sets the message when created" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -722,30 +734,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="lint" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="lint" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
     <configuration name="start-dev" type="js.build_tools.npm" factoryName="npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="serve" />
+        <script value="start" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -753,23 +746,27 @@
     </configuration>
     <list>
       <item itemvalue="npm.start-dev" />
-      <item itemvalue="npm.lint" />
+      <item itemvalue="Jest.TableView.vue.correctly sets the message when created" />
+      <item itemvalue="Jest.TableView.vue.component gets initialized" />
+      <item itemvalue="Jest.CoinDetails.vue.component gets initialized" />
       <item itemvalue="Jest.CoinDetails.vue" />
-      <item itemvalue="Jest.CoinDetails.vue (1)" />
+      <item itemvalue="Jest.CoinDetails.vue.displays" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.CoinDetails.vue (1)" />
+        <item itemvalue="Jest.CoinDetails.vue.displays" />
         <item itemvalue="Jest.CoinDetails.vue" />
-        <item itemvalue="npm.lint" />
+        <item itemvalue="Jest.CoinDetails.vue.component gets initialized" />
+        <item itemvalue="Jest.TableView.vue.component gets initialized" />
+        <item itemvalue="Jest.TableView.vue.correctly sets the message when created" />
       </list>
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
     <option name="projectSyncType">
       <map>
-        <entry key="$PROJECT_DIR$/../../_IM530/UserPhone1/UserPhone1" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../_IM530/scalar-play-example" value="PREVIEW" />
+        <entry key="$USER_HOME$/_IM530/UserPhone1/UserPhone1" value="PREVIEW" />
+        <entry key="$USER_HOME$/_IM530/scalar-play-example" value="PREVIEW" />
       </map>
     </option>
   </component>
@@ -830,18 +827,45 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CoinDetails_vue - 2018.06.14 at 16h 23m 52s.xml">
-      <configuration name="CoinDetails.vue" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="TableView_vue - 2018.06.14 at 18h 57m 29s.xml">
+      <configuration name="TableView.vue" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="TableView_vue - 2018.06.14 at 18h 57m 54s.xml">
+      <configuration name="TableView.vue" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="TableView_vue_sets_correct_class_based_on_value - 2018.06.14 at 19h 00m 57s.xml">
+      <configuration name="TableView.vue.sets correct class based on value" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="TableView_vue_sets_correct_class_based_on_value - 2018.06.14 at 19h 01m 08s.xml">
+      <configuration name="TableView.vue.sets correct class based on value" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="TableView_vue_correctly_sets_the_message_when_created - 2018.06.14 at 19h 03m 19s.xml">
+      <configuration name="TableView.vue.correctly sets the message when created" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="TableView_vue_correctly_sets_the_message_when_created - 2018.06.14 at 19h 03m 27s.xml">
+      <configuration name="TableView.vue.correctly sets the message when created" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="TableView_vue_correctly_sets_the_message_when_created - 2018.06.14 at 19h 03m 33s.xml">
+      <configuration name="TableView.vue.correctly sets the message when created" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="TableView_vue_component_gets_initialized - 2018.06.14 at 19h 04m 31s.xml">
+      <configuration name="TableView.vue.component gets initialized" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="TableView_vue_component_gets_initialized - 2018.06.14 at 19h 04m 39s.xml">
+      <configuration name="TableView.vue.component gets initialized" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="CoinDetails_vue_component_gets_initialized - 2018.06.14 at 19h 16m 38s.xml">
+      <configuration name="CoinDetails.vue.component gets initialized" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30124000" />
+    <option name="totallyTimeSpent" value="32464000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <frame x="1987" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10174881" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20088544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -849,7 +873,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3299532" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32972974" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -857,7 +881,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3299532" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3299532" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3299532" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="bottom" id="GraphQL" order="13" weight="0.3299532" />
@@ -895,13 +919,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Navbar.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vue.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -909,46 +926,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/graphql.schema.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graphql.config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/graphql.schema.json" />
+    <entry file="file://$PROJECT_DIR$/graphql.config.json" />
     <entry file="file://$PROJECT_DIR$/node_modules/graphql-tag/src/index.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/format.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/TableView.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="63" column="31" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.babelrc">
       <provider selected="true" editor-type-id="text-editor">
@@ -957,24 +938,125 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build/dev-server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1185">
+          <caret line="79" column="3" selection-start-line="79" selection-start-column="3" selection-end-line="79" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/format.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/HelloWorld.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="14" selection-start-line="14" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Navbar.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.eslintrc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="674">
-          <caret line="68" column="54" selection-start-line="68" selection-start-column="54" selection-end-line="68" selection-end-column="54" />
+        <state relative-caret-position="1185">
+          <caret line="103" column="3" selection-start-line="103" selection-start-column="3" selection-end-line="103" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="29" column="12" lean-forward="true" selection-start-line="29" selection-end-line="30" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/CoinDetails.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="752">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="58">
+          <caret line="7" column="14" selection-start-line="7" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TableView.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="61" column="18" lean-forward="true" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
+          <folding>
+            <element signature="e#1367#1396#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/check-versions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yarn-error.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/service-worker-dev.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/service-worker-prod.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-302" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/TableView.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="21" selection-start-line="1" selection-end-line="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/CoinDetails.spec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
