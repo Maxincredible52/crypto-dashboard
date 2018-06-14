@@ -2,24 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd2fbe36-1499-4516-85a9-ad3f299dff02" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/zaune.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/usage.statistics.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CoinDetails.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TableView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TableView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/usage.statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/usage.statistics.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CoinDetails.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CoinDetails.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/format.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/format.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,8 +21,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/package.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="480">
-                  <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+                <state relative-caret-position="48">
+                  <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
@@ -44,8 +30,17 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="576">
-                  <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+                <state relative-caret-position="464">
+                  <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/App.vue">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="176">
+                  <caret line="11" selection-start-line="11" selection-end-line="11" />
                 </state>
               </provider>
             </entry>
@@ -53,8 +48,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/components/CoinDetails.vue">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="144">
-                  <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+                <state relative-caret-position="64">
+                  <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
                 </state>
               </provider>
             </entry>
@@ -62,12 +57,21 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/TableView.vue">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="386">
-                  <caret line="51" column="21" lean-forward="true" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+                <state relative-caret-position="880">
+                  <caret line="118" column="20" selection-start-line="118" selection-start-column="6" selection-end-line="118" selection-end-column="20" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/lib/format.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="64">
+                  <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
                 </state>
               </provider>
             </entry>
@@ -80,12 +84,19 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Cryptostats</find>
+      <find>f(</find>
+      <find>f</find>
+      <find>tickers</find>
+      <find>vue-loader</find>
+      <find>his</find>
+      <find>format</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -102,10 +113,11 @@
         <option value="$PROJECT_DIR$/src/components/Navbar.vue" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/vue.config.js" />
-        <option value="$PROJECT_DIR$/src/App.vue" />
         <option value="$PROJECT_DIR$/src/main.js" />
-        <option value="$PROJECT_DIR$/src/components/CoinDetails.vue" />
+        <option value="$PROJECT_DIR$/src/App.vue" />
         <option value="$PROJECT_DIR$/src/components/TableView.vue" />
+        <option value="$PROJECT_DIR$/src/lib/format.js" />
+        <option value="$PROJECT_DIR$/src/components/CoinDetails.vue" />
       </list>
     </option>
   </component>
@@ -253,64 +265,302 @@
     </entry>
   </component>
   <component name="ProjectUserFactors">
-    <factor id="binaryFeature:liftShorter" />
-    <factor id="binaryFeature:liftShorterClasses" />
-    <factor id="binaryFeature:middleMatching" />
-    <factor id="binaryFeature:nonGeneric" />
-    <factor id="binaryFeature:prox_inResolveScope" />
-    <factor id="binaryFeature:prox_openedInEditor" />
-    <factor id="binaryFeature:prox_sameDirectory" />
-    <factor id="binaryFeature:prox_sameLogicalRoot" />
-    <factor id="binaryFeature:prox_sdkOrLibrary" />
-    <factor id="binaryFeature:templates" />
-    <factor id="categoricalFeature:accessible" />
-    <factor id="categoricalFeature:expectedType" />
-    <factor id="categoricalFeature:kind" />
-    <factor id="categoricalFeature:prox_groovyReferenceListWeigher" />
-    <factor id="categoricalFeature:prox_javaInheritance" />
-    <factor id="categoricalFeature:prox_referenceList" />
-    <factor id="categoricalFeature:recursion" />
+    <factor id="binaryFeature:liftShorter">
+      <dailyData date="14-6-2018">
+        <observation name="UNDEFINED" value="89,0" />
+        <observation name="false" value="34,0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:liftShorterClasses">
+      <dailyData date="14-6-2018">
+        <observation name="UNDEFINED" value="123,0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:middleMatching">
+      <dailyData date="14-6-2018">
+        <observation name="false" value="123,0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:nonGeneric">
+      <dailyData date="14-6-2018">
+        <observation name="UNDEFINED" value="123,0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:prox_inResolveScope">
+      <dailyData date="14-6-2018">
+        <observation name="UNDEFINED" value="113,0" />
+        <observation name="false" value="5,0" />
+        <observation name="true" value="5,0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:prox_openedInEditor">
+      <dailyData date="14-6-2018">
+        <observation name="UNDEFINED" value="113,0" />
+        <observation name="false" value="10,0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:prox_sameDirectory">
+      <dailyData date="14-6-2018">
+        <observation name="UNDEFINED" value="113,0" />
+        <observation name="false" value="10,0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:prox_sameLogicalRoot">
+      <dailyData date="14-6-2018">
+        <observation name="UNDEFINED" value="113,0" />
+        <observation name="false" value="10,0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:prox_sdkOrLibrary">
+      <dailyData date="14-6-2018">
+        <observation name="UNDEFINED" value="113,0" />
+        <observation name="false" value="10,0" />
+      </dailyData>
+    </factor>
+    <factor id="binaryFeature:templates">
+      <dailyData date="14-6-2018">
+        <observation name="false" value="120,0" />
+        <observation name="true" value="3,0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:accessible">
+      <dailyData date="14-6-2018">
+        <observation name="UNDEFINED" value="123,0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:expectedType">
+      <dailyData date="14-6-2018">
+        <observation name="UNDEFINED" value="123,0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:kind">
+      <dailyData date="14-6-2018">
+        <observation name="UNDEFINED" value="123,0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:prox_groovyReferenceListWeigher">
+      <dailyData date="14-6-2018">
+        <observation name="UNDEFINED" value="113,0" />
+        <observation name="unknown" value="10,0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:prox_javaInheritance">
+      <dailyData date="14-6-2018">
+        <observation name="UNDEFINED" value="113,0" />
+        <observation name="null" value="10,0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:prox_referenceList">
+      <dailyData date="14-6-2018">
+        <observation name="UNDEFINED" value="113,0" />
+        <observation name="unknown" value="10,0" />
+      </dailyData>
+    </factor>
+    <factor id="categoricalFeature:recursion">
+      <dailyData date="14-6-2018">
+        <observation name="UNDEFINED" value="123,0" />
+      </dailyData>
+    </factor>
     <factor id="completionFinishedType">
-      <dailyData date="11-6-2018">
-        <observation name="cancelled" value="3,0" />
+      <dailyData date="14-6-2018">
+        <observation name="cancelled" value="454,0" />
+        <observation name="explicitSelect" value="49,0" />
+        <observation name="typedSelect" value="74,0" />
       </dailyData>
     </factor>
     <factor id="completionType">
-      <dailyData date="11-6-2018">
-        <observation name="BASIC" value="1,0" />
+      <dailyData date="14-6-2018">
+        <observation name="BASIC" value="185,0" />
       </dailyData>
     </factor>
     <factor id="completionUsage">
-      <dailyData date="11-6-2018">
-        <observation name="count" value="3,0" />
+      <dailyData date="14-6-2018">
+        <observation name="count" value="577,0" />
       </dailyData>
     </factor>
-    <factor id="doubleFeature:explicitProximity" />
-    <factor id="doubleFeature:grouping" />
-    <factor id="doubleFeature:mostUsed" />
-    <factor id="doubleFeature:nameEnd" />
-    <factor id="doubleFeature:position" />
-    <factor id="doubleFeature:prefix" />
-    <factor id="doubleFeature:priority" />
-    <factor id="doubleFeature:prox_explicitlyImported" />
-    <factor id="doubleFeature:prox_knownElement" />
-    <factor id="doubleFeature:prox_sameModule" />
-    <factor id="doubleFeature:prox_samePsiMember" />
-    <factor id="doubleFeature:query_length" />
-    <factor id="doubleFeature:result_length" />
-    <factor id="doubleFeature:sameWords" />
-    <factor id="doubleFeature:shorter" />
-    <factor id="doubleFeature:simple" />
-    <factor id="doubleFeature:sorter" />
-    <factor id="doubleFeature:statics" />
-    <factor id="doubleFeature:stats" />
-    <factor id="itemPosition" />
-    <factor id="mnemonicsUsage" />
-    <factor id="prefixLength" />
+    <factor id="doubleFeature:explicitProximity">
+      <dailyData date="14-6-2018">
+        <observation name="UNDEFINED" value="89,0" />
+        <observation name="average" value="0,0" />
+        <observation name="count" value="67,0" />
+        <observation name="max" value="0,0" />
+        <observation name="min" value="0,0" />
+        <observation name="variance" value="0,0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:grouping">
+      <dailyData date="14-6-2018">
+        <observation name="UNDEFINED" value="89,0" />
+        <observation name="average" value="0,0" />
+        <observation name="count" value="67,0" />
+        <observation name="max" value="0,0" />
+        <observation name="min" value="0,0" />
+        <observation name="variance" value="0,0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:mostUsed">
+      <dailyData date="14-6-2018">
+        <observation name="UNDEFINED" value="123,0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:nameEnd">
+      <dailyData date="14-6-2018">
+        <observation name="UNDEFINED" value="123,0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:position">
+      <dailyData date="14-6-2018">
+        <observation name="average" value="0,032653" />
+        <observation name="count" value="245,0" />
+        <observation name="max" value="1,0" />
+        <observation name="min" value="0,0" />
+        <observation name="variance" value="0,030322" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prefix">
+      <dailyData date="14-6-2018">
+        <observation name="average" value="-1123,244898" />
+        <observation name="count" value="245,0" />
+        <observation name="max" value="0,0" />
+        <observation name="min" value="-1303,0" />
+        <observation name="variance" value="19596,703118" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:priority">
+      <dailyData date="14-6-2018">
+        <observation name="average" value="-20,269388" />
+        <observation name="count" value="245,0" />
+        <observation name="max" value="81,0" />
+        <observation name="min" value="-102,0" />
+        <observation name="variance" value="1169,884826" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prox_explicitlyImported">
+      <dailyData date="14-6-2018">
+        <observation name="UNDEFINED" value="113,0" />
+        <observation name="average" value="0,0" />
+        <observation name="count" value="19,0" />
+        <observation name="max" value="0,0" />
+        <observation name="min" value="0,0" />
+        <observation name="variance" value="0,0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prox_knownElement">
+      <dailyData date="14-6-2018">
+        <observation name="UNDEFINED" value="113,0" />
+        <observation name="average" value="0,0" />
+        <observation name="count" value="19,0" />
+        <observation name="max" value="0,0" />
+        <observation name="min" value="0,0" />
+        <observation name="variance" value="0,0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prox_sameModule">
+      <dailyData date="14-6-2018">
+        <observation name="UNDEFINED" value="113,0" />
+        <observation name="average" value="0,0" />
+        <observation name="count" value="19,0" />
+        <observation name="max" value="0,0" />
+        <observation name="min" value="0,0" />
+        <observation name="variance" value="0,0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:prox_samePsiMember">
+      <dailyData date="14-6-2018">
+        <observation name="UNDEFINED" value="113,0" />
+        <observation name="average" value="0,0" />
+        <observation name="count" value="19,0" />
+        <observation name="max" value="0,0" />
+        <observation name="min" value="0,0" />
+        <observation name="variance" value="0,0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:query_length">
+      <dailyData date="14-6-2018">
+        <observation name="average" value="0,0" />
+        <observation name="count" value="245,0" />
+        <observation name="max" value="0,0" />
+        <observation name="min" value="0,0" />
+        <observation name="variance" value="0,0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:result_length">
+      <dailyData date="14-6-2018">
+        <observation name="average" value="6,526531" />
+        <observation name="count" value="245,0" />
+        <observation name="max" value="17,0" />
+        <observation name="min" value="2,0" />
+        <observation name="variance" value="6,835127" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:sameWords">
+      <dailyData date="14-6-2018">
+        <observation name="UNDEFINED" value="123,0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:shorter">
+      <dailyData date="14-6-2018">
+        <observation name="UNDEFINED" value="123,0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:simple">
+      <dailyData date="14-6-2018">
+        <observation name="UNDEFINED" value="123,0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:sorter">
+      <dailyData date="14-6-2018">
+        <observation name="average" value="1,0" />
+        <observation name="count" value="245,0" />
+        <observation name="max" value="1,0" />
+        <observation name="min" value="1,0" />
+        <observation name="variance" value="0,0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:statics">
+      <dailyData date="14-6-2018">
+        <observation name="UNDEFINED" value="123,0" />
+      </dailyData>
+    </factor>
+    <factor id="doubleFeature:stats">
+      <dailyData date="14-6-2018">
+        <observation name="average" value="2856,644898" />
+        <observation name="count" value="245,0" />
+        <observation name="max" value="10000,0" />
+        <observation name="min" value="0,0" />
+        <observation name="variance" value="18858756,997268" />
+      </dailyData>
+    </factor>
+    <factor id="itemPosition">
+      <dailyData date="14-6-2018">
+        <observation name="0" value="47,0" />
+        <observation name="1" value="2,0" />
+      </dailyData>
+    </factor>
+    <factor id="mnemonicsUsage">
+      <dailyData date="14-6-2018">
+        <observation name="total" value="41,0" />
+        <observation name="withMnemonics" value="4,0" />
+      </dailyData>
+    </factor>
+    <factor id="prefixLength">
+      <dailyData date="14-6-2018">
+        <observation name="0" value="3,0" />
+        <observation name="1" value="5,0" />
+        <observation name="12" value="1,0" />
+        <observation name="2" value="6,0" />
+        <observation name="3" value="11,0" />
+        <observation name="4" value="10,0" />
+        <observation name="5" value="5,0" />
+        <observation name="6" value="5,0" />
+        <observation name="7" value="1,0" />
+        <observation name="8" value="2,0" />
+      </dailyData>
+    </factor>
     <factor id="timeBetweenTyping">
-      <dailyData date="11-6-2018">
-        <observation name="average" value="350,5" />
-        <observation name="count" value="2,0" />
+      <dailyData date="14-6-2018">
+        <observation name="average" value="148,297619" />
+        <observation name="count" value="420,0" />
       </dailyData>
     </factor>
   </component>
@@ -352,19 +602,19 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../graphql-coinmarketcap" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.GraphQL" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -378,7 +628,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.lint">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -414,6 +664,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="lint" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="lint" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start-dev" type="js.build_tools.npm" factoryName="npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -424,6 +684,15 @@
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="npm.start-dev" />
+      <item itemvalue="npm.lint" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.lint" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
     <option name="projectSyncType">
@@ -446,18 +715,43 @@
       <workItem from="1528719481184" duration="1443000" />
       <workItem from="1528720961858" duration="232000" />
       <workItem from="1528721234624" duration="135000" />
-      <workItem from="1528721384806" duration="6095000" />
+      <workItem from="1528721384806" duration="14617000" />
+      <workItem from="1528789903254" duration="106000" />
+      <workItem from="1528925980799" duration="3946000" />
+      <workItem from="1528976481542" duration="6475000" />
     </task>
+    <task id="LOCAL-00001" summary="feat(router): added router and new coin detail view">
+      <created>1528728049512</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1528728049512</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat(refactor): refactored code">
+      <created>1528728401385</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1528728401385</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat(detail): fully implemented detail page">
+      <created>1528981804508</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1528981804508</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7905000" />
+    <option name="totallyTimeSpent" value="26954000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09929078" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10174881" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -471,7 +765,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3299532" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3299532" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -492,6 +786,12 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat(router): added router and new coin detail view" />
+    <MESSAGE value="feat(refactor): refactored code" />
+    <MESSAGE value="feat(detail): fully implemented detail page" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(detail): fully implemented detail page" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/dictionaries/zaune.xml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -510,14 +810,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vue.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -525,31 +817,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/graphql.schema.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphql.config.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+        <state relative-caret-position="320">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+        <state relative-caret-position="464">
+          <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/graphql-tag/src/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TableView.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="118" column="20" selection-start-line="118" selection-start-column="6" selection-end-line="118" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/format.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/CoinDetails.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/TableView.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="51" column="21" lean-forward="true" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+        <state relative-caret-position="64">
+          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
         </state>
       </provider>
     </entry>

@@ -1,5 +1,5 @@
 <template>
-  <div class="container"><router-view></router-view></div>
+  <router-view></router-view>
 </template>
 
 <script>
@@ -9,8 +9,4 @@
 </script>
 
 <style>
-  .container {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
 </style>
