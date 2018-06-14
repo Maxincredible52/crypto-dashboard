@@ -4,10 +4,11 @@
     <session id="-767732393">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="babelrc" value="3" />
           <entry key="gitignore" value="1" />
           <entry key="graphqls" value="3" />
-          <entry key="js" value="6" />
-          <entry key="json" value="3" />
+          <entry key="js" value="7" />
+          <entry key="json" value="4" />
           <entry key="vue" value="6" />
           <entry key="xml" value="1" />
         </counts>
@@ -16,8 +17,8 @@
         <counts>
           <entry key="Git file" value="1" />
           <entry key="GraphQL Schema" value="3" />
-          <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="6" />
+          <entry key="JSON" value="7" />
+          <entry key="JavaScript" value="7" />
           <entry key="Vue.js" value="6" />
           <entry key="XML" value="1" />
         </counts>
@@ -25,8 +26,9 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="9" />
-          <entry key="js" value="842" />
-          <entry key="txt" value="195" />
+          <entry key="js" value="1290" />
+          <entry key="json" value="43" />
+          <entry key="txt" value="235" />
           <entry key="vue" value="2870" />
         </counts>
       </usages-collector>
@@ -34,8 +36,9 @@
         <counts>
           <entry key="Git file" value="9" />
           <entry key="GraphQL" value="75" />
-          <entry key="JavaScript" value="842" />
-          <entry key="PLAIN_TEXT" value="195" />
+          <entry key="JSON" value="43" />
+          <entry key="JavaScript" value="1290" />
+          <entry key="PLAIN_TEXT" value="235" />
           <entry key="Vue.js" value="2795" />
         </counts>
       </usages-collector>
