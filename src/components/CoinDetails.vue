@@ -11,7 +11,7 @@
         </div>
       </div>
     </section>
-    <section v-if="!$apolloData.loading" class="section">
+    <section v-if="!$apolloData.loading" class="section" id="details-section">
       <nav class="level">
         <div class="level-item has-text-centered">
           <div>
