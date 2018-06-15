@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dd2fbe36-1499-4516-85a9-ad3f299dff02" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,17 +34,17 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="15" />
-          <entry key="json" value="58" />
-          <entry key="txt" value="46" />
+          <entry key="js" value="16" />
+          <entry key="json" value="67" />
+          <entry key="txt" value="119" />
           <entry key="vue" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="58" />
-          <entry key="JavaScript" value="15" />
-          <entry key="PLAIN_TEXT" value="46" />
+          <entry key="JSON" value="67" />
+          <entry key="JavaScript" value="16" />
+          <entry key="PLAIN_TEXT" value="119" />
           <entry key="Vue.js" value="1" />
         </counts>
       </usages-collector>
@@ -54,11 +55,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+            <state relative-caret-position="272">
+              <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -95,11 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+            <state relative-caret-position="224">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -154,8 +155,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/vue.config.js" />
         <option value="$PROJECT_DIR$/src/components/CoinDetails.vue" />
-        <option value="$PROJECT_DIR$/src/main.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/main.js" />
       </list>
     </option>
   </component>
@@ -390,7 +391,7 @@
     </factor>
     <factor id="completionFinishedType">
       <dailyData date="15-6-2018">
-        <observation name="cancelled" value="34.0" />
+        <observation name="cancelled" value="97.0" />
         <observation name="typedSelect" value="1.0" />
       </dailyData>
     </factor>
@@ -401,7 +402,7 @@
     </factor>
     <factor id="completionUsage">
       <dailyData date="15-6-2018">
-        <observation name="count" value="35.0" />
+        <observation name="count" value="98.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:explicitProximity">
@@ -535,6 +536,9 @@
         <observation name="variance" value="0.0" />
       </dailyData>
     </factor>
+    <factor id="itemPosition" />
+    <factor id="mnemonicsUsage" />
+    <factor id="prefixLength" />
     <factor id="timeBetweenTyping">
       <dailyData date="15-6-2018">
         <observation name="average" value="134.8" />
@@ -794,7 +798,21 @@
       <option name="project" value="LOCAL" />
       <updated>1529094120811</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fix(hot): add missing dependency">
+      <created>1529094894217</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1529094894217</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fix(hot): fix port to 8080 for gcloud">
+      <created>1529095439737</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1529095439737</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -830,7 +848,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35073000" />
+    <option name="totallyTimeSpent" value="35924000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -861,7 +879,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3299532" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32897863" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32897863" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32897863" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="bottom" id="GraphQL" order="13" weight="0.3299532" />
@@ -881,13 +899,17 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="feat(router): added router and new coin detail view" />
     <MESSAGE value="feat(refactor): refactored code" />
     <MESSAGE value="feat(detail): fully implemented detail page" />
     <MESSAGE value="refactor(design): further refine design of detail page" />
     <MESSAGE value="fix(table): fixed broken paging on table" />
     <MESSAGE value="fix(hot): hotfix syntax error in package.json" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix(hot): hotfix syntax error in package.json" />
+    <MESSAGE value="fix(hot): add missing dependency" />
+    <MESSAGE value="fix(hot): fix port to 8080 for gcloud" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix(hot): fix port to 8080 for gcloud" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/dictionaries/zaune.xml">
@@ -993,20 +1015,6 @@
     <entry file="file://$PROJECT_DIR$/config/dev.env.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vue.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -1017,10 +1025,24 @@
     <entry file="file://$PROJECT_DIR$/config/index.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+        <state relative-caret-position="272">
+          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
