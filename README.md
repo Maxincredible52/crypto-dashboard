@@ -17,7 +17,7 @@ to ensure the project would also work after november, when v1 of the api gets pu
 Our fork can be found at: https://github.com/mayrmax/graphql-coinmarketcap
 
 ## Frontend
-A working version of our Frontend is available under: LINK
+A working version of our Frontend is available under: https://cryptodash.zaunermax.at
 
 ### Contributors
 
