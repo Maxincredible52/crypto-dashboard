@@ -1,17 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd2fbe36-1499-4516-85a9-ad3f299dff02" name="Default Changelist" comment="fix(table): fixed broken paging on table">
-      <change afterPath="$PROJECT_DIR$/crypto-dashboard.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+    <list default="true" id="dd2fbe36-1499-4516-85a9-ad3f299dff02" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CoinDetails.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CoinDetails.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,7 +17,7 @@
         <counts>
           <entry key="gitignore" value="1" />
           <entry key="html" value="1" />
-          <entry key="js" value="7" />
+          <entry key="js" value="8" />
           <entry key="json" value="1" />
           <entry key="vue" value="2" />
         </counts>
@@ -36,21 +27,23 @@
           <entry key="Git file" value="1" />
           <entry key="HTML" value="1" />
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="7" />
+          <entry key="JavaScript" value="8" />
           <entry key="Vue.js" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="js" value="15" />
-          <entry key="json" value="57" />
+          <entry key="json" value="58" />
+          <entry key="txt" value="46" />
           <entry key="vue" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="57" />
+          <entry key="JSON" value="58" />
           <entry key="JavaScript" value="15" />
+          <entry key="PLAIN_TEXT" value="46" />
           <entry key="Vue.js" value="1" />
         </counts>
       </usages-collector>
@@ -60,12 +53,12 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="5" column="44" lean-forward="true" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+            <state relative-caret-position="464">
+              <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -82,16 +75,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vue.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="80">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/index.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/CoinDetails.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1013">
+            <state relative-caret-position="1664">
               <caret line="104" column="3" selection-start-line="104" selection-start-column="3" selection-end-line="104" selection-end-column="3" />
             </state>
           </provider>
@@ -137,7 +135,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="feat/gc-deployment" />
       </map>
     </option>
   </component>
@@ -537,9 +535,6 @@
         <observation name="variance" value="0.0" />
       </dailyData>
     </factor>
-    <factor id="itemPosition" />
-    <factor id="mnemonicsUsage" />
-    <factor id="prefixLength" />
     <factor id="timeBetweenTyping">
       <dailyData date="15-6-2018">
         <observation name="average" value="134.8" />
@@ -560,6 +555,11 @@
             <path>
               <item name="crypto-dashboard" type="b2602c69:ProjectViewProjectNode" />
               <item name="crypto-dashboard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crypto-dashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crypto-dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -787,7 +787,14 @@
       <option name="project" value="LOCAL" />
       <updated>1528983323548</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fix(hot): hotfix syntax error in package.json">
+      <created>1529094120811</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1529094120811</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -823,7 +830,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34174000" />
+    <option name="totallyTimeSpent" value="35073000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -855,7 +862,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3299532" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32897863" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32897863" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="bottom" id="GraphQL" order="13" weight="0.3299532" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -879,7 +886,8 @@
     <MESSAGE value="feat(detail): fully implemented detail page" />
     <MESSAGE value="refactor(design): further refine design of detail page" />
     <MESSAGE value="fix(table): fixed broken paging on table" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix(table): fixed broken paging on table" />
+    <MESSAGE value="fix(hot): hotfix syntax error in package.json" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix(hot): hotfix syntax error in package.json" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/dictionaries/zaune.xml">
@@ -930,13 +938,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/yarn-error.log" />
     <entry file="file://$PROJECT_DIR$/build/service-worker-dev.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/build/service-worker-prod.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -954,9 +956,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -976,7 +975,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/CoinDetails.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1013">
+        <state relative-caret-position="1664">
           <caret line="104" column="3" selection-start-line="104" selection-start-column="3" selection-end-line="104" selection-end-column="3" />
         </state>
       </provider>
@@ -988,17 +987,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/prod.env.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/index.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/config/dev.env.js">
@@ -1018,10 +1007,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/vue.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
-          <caret line="5" column="44" lean-forward="true" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
         </state>
       </provider>
     </entry>
