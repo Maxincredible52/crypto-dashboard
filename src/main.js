@@ -12,7 +12,7 @@ import CoinDetails from './components/CoinDetails.vue'
 import TableView from './components/TableView.vue'
 
 const httpLink = new HttpLink({
-  uri: 'http://localhost:3000/graphql',
+  uri: 'http://coinmarketcap-graphql.appspot.com/graphql',
 })
 
 const apolloClient = new ApolloClient({
