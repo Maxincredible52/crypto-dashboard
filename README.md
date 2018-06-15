@@ -9,6 +9,8 @@ of those projects to integrate GraphQL.
 The dashboard should provide an overview over all available crypto-currencies. Each currency should have 
 a detail page that shows more detailed informations.
 
+This application is also a PWA and it looks as good on mobile devices as on the desktop.
+
 ## Backend
 For out backend we forked the basic implementation of https://github.com/Onra/graphql-coinmarketcap and 
 extended it to our needs. Additionally we also switched the backend to use the newer API of coinarketcap

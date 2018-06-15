@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd2fbe36-1499-4516-85a9-ad3f299dff02" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="dd2fbe36-1499-4516-85a9-ad3f299dff02" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +17,7 @@
           <entry key="html" value="1" />
           <entry key="js" value="9" />
           <entry key="json" value="1" />
+          <entry key="md" value="1" />
           <entry key="vue" value="2" />
         </counts>
       </usages-collector>
@@ -33,6 +27,7 @@
           <entry key="HTML" value="1" />
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="9" />
+          <entry key="Markdown" value="1" />
           <entry key="Vue.js" value="2" />
         </counts>
       </usages-collector>
@@ -40,7 +35,8 @@
         <counts>
           <entry key="js" value="23" />
           <entry key="json" value="171" />
-          <entry key="txt" value="162" />
+          <entry key="md" value="31" />
+          <entry key="txt" value="276" />
           <entry key="vue" value="1" />
         </counts>
       </usages-collector>
@@ -48,7 +44,8 @@
         <counts>
           <entry key="JSON" value="171" />
           <entry key="JavaScript" value="23" />
-          <entry key="PLAIN_TEXT" value="162" />
+          <entry key="Markdown" value="31" />
+          <entry key="PLAIN_TEXT" value="276" />
           <entry key="Vue.js" value="1" />
         </counts>
       </usages-collector>
@@ -59,11 +56,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="128">
               <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="256">
+                <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -172,6 +181,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -406,7 +416,7 @@
     </factor>
     <factor id="completionFinishedType">
       <dailyData date="15-6-2018">
-        <observation name="cancelled" value="180.0" />
+        <observation name="cancelled" value="299.0" />
         <observation name="typedSelect" value="1.0" />
       </dailyData>
     </factor>
@@ -417,7 +427,7 @@
     </factor>
     <factor id="completionUsage">
       <dailyData date="15-6-2018">
-        <observation name="count" value="181.0" />
+        <observation name="count" value="300.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:explicitProximity">
@@ -829,7 +839,28 @@
       <option name="project" value="LOCAL" />
       <updated>1529095738665</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="feat(deploy): ditch google cloud and use s3 spa serving">
+      <created>1529097703071</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1529097703071</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat(readme): updated readme">
+      <created>1529097801733</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1529097801734</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat(link): add link to readme">
+      <created>1529097895125</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1529097895125</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -865,7 +896,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37839000" />
+    <option name="totallyTimeSpent" value="38470000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -927,7 +958,10 @@
     <MESSAGE value="fix(hot): add missing dependency" />
     <MESSAGE value="fix(hot): fix port to 8080 for gcloud" />
     <MESSAGE value="fix(hot): change graphql url to https" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix(hot): change graphql url to https" />
+    <MESSAGE value="feat(deploy): ditch google cloud and use s3 spa serving" />
+    <MESSAGE value="feat(readme): updated readme" />
+    <MESSAGE value="feat(link): add link to readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(link): add link to readme" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/dictionaries/zaune.xml">
@@ -1068,6 +1102,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="256">
+            <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
