@@ -6,12 +6,18 @@ We want to build a crypto dashboard by talking to the various apis provided in t
 open source projects for building GraphQL apis on top of existing crypto rest apis. We intent to use one
 of those projects to integrate GraphQL.
 
-The dashboard should be customizable. This includes not only showing the desired currencies but also 
-providing a conversion to other currencies.
+The dashboard should provide an overview over all available crypto-currencies. Each currency should have 
+a detail page that shows more detailed informations.
 
-We do not want to push ourselves into a certain direction with this project, as we want to experiment with
-Vue so some features might be added in the future that were not defined in this README. This will be 
-documented in the future though.
+## Backend
+For out backend we forked the basic implementation of https://github.com/Onra/graphql-coinmarketcap and 
+extended it to our needs. Additionally we also switched the backend to use the newer API of coinarketcap
+to ensure the project would also work after november, when v1 of the api gets put out of service.
+
+Our fork can be found at: https://github.com/mayrmax/graphql-coinmarketcap
+
+## Frontend
+A working version of our Frontend is available under: LINK
 
 ### Contributors
 
