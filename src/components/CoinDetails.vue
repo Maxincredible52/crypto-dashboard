@@ -80,7 +80,7 @@
     },
 
     computed: {
-      imgUrl: function () {
+      imgUrl: function() {
         return `https://s2.coinmarketcap.com/static/img/coins/32x32/${this.coinData.id}.png`
       },
       circulatingSupply: function() {
@@ -94,7 +94,7 @@
       },
       priceUSD: function() {
         return `${Format.currencyFormat(this.coinData.priceUSD)} USD`
-      }
+      },
     },
 
     methods: {

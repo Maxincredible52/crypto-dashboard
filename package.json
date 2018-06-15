@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "node build/dev-server.js",
+    "start-dev": "node build/dev-server.js"
+    "start": "npm run build && serve -s dist",
     "build": "node build/build.js",
     "lint": "eslint --ext .js,.vue src",
     "test": "jest"
